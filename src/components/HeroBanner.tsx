@@ -13,10 +13,10 @@ const HeroBanner = () => {
             últimas noticias y avances en nuestra área de investigación.
           </p>
           <div className="mt-10 flex justify-center gap-4">
-            <button className="px-8 py-3 bg-brand-blue text-white hover:bg-white hover:text-brand-blue border border-brand-blue rounded-md transition-all duration-200 transform hover:scale-105 font-primary">
+            <button className="px-8 py-3 bg-brand-blue text-white hover:bg-white hover:text-brand-blue border border-brand-blue rounded-md transition-all duration-200 transform hover:scale-105 text-sm font-medium font-primary">
               Explorar
             </button>
-            <button className="px-8 py-3 bg-white text-brand-blue hover:bg-brand-blue hover:text-white border border-brand-blue rounded-md transition-all duration-200 transform hover:scale-105 font-primary">
+            <button className="px-8 py-3 bg-white text-brand-blue hover:bg-brand-blue hover:text-white border border-brand-blue rounded-md transition-all duration-200 transform hover:scale-105 text-sm font-medium font-primary">
               Más información →
             </button>
           </div>

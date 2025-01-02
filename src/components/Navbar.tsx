@@ -33,7 +33,7 @@ const Navbar = () => {
               <Search className="h-5 w-5" />
             </button>
             
-            <button className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-brand-blue hover:bg-white hover:text-brand-blue transition-colors rounded-md font-primary">
+            <button className="inline-flex items-center gap-2 px-8 py-3 text-sm font-medium text-white bg-brand-blue hover:bg-white hover:text-brand-blue border border-brand-blue transition-all duration-200 transform hover:scale-105 rounded-md font-primary">
               Iniciar sesión
               <LogIn className="h-4 w-4" />
             </button>
