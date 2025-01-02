@@ -35,10 +35,16 @@ const MobileNav = ({ isOpen, isLanguageOpen, setIsLanguageOpen }: MobileNavProps
           {activeMenu === 'about' && (
             <div className="pl-4 space-y-1">
               <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
-                Quiénes somos
+                ¿Quiénes somos?
               </a>
               <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
-                Misión y visión
+                Semilleros
+              </a>
+              <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
+                Proyectos
+              </a>
+              <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
+                Gestión de conocimiento
               </a>
             </div>
           )}
@@ -55,10 +61,13 @@ const MobileNav = ({ isOpen, isLanguageOpen, setIsLanguageOpen }: MobileNavProps
           {activeMenu === 'events' && (
             <div className="pl-4 space-y-1">
               <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
-                Próximos eventos
+                Ciclo de talleres Proyecta
               </a>
               <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
-                Eventos pasados
+                Memorias de eventos pasados
+              </a>
+              <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
+                Próximos eventos
               </a>
             </div>
           )}
@@ -75,10 +84,10 @@ const MobileNav = ({ isOpen, isLanguageOpen, setIsLanguageOpen }: MobileNavProps
           {activeMenu === 'services' && (
             <div className="pl-4 space-y-1">
               <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
-                Portafolio
+                Laboratorios
               </a>
               <a href="#" className="block px-3 py-2 text-sm text-brand-blue hover:bg-brand-blue hover:text-white rounded-md font-primary">
-                Laboratorios
+                Portafolio de Servicios
               </a>
             </div>
           )}

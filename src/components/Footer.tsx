@@ -24,17 +24,17 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
-                  Misión y visión
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
-                  Objetivos
+                  Semilleros
                 </a>
               </li>
               <li>
                 <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
                   Proyectos
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
+                  Gestión de conocimiento
                 </a>
               </li>
             </ul>
@@ -50,7 +50,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
-                  Eventos pasados
+                  Memorias de eventos pasados
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
+                  Próximos eventos
                 </a>
               </li>
             </ul>
@@ -61,12 +66,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
-                  Portafolio
+                  Laboratorios
                 </a>
               </li>
               <li>
                 <a href="#" className="text-white hover:text-brand-blue transition-colors text-base">
-                  Laboratorios
+                  Portafolio de Servicios
                 </a>
               </li>
             </ul>
