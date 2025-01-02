@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const CallToAction = () => {
   return (
-    <section className="py-20 px-4 bg-brand-blue">
+    <section className="py-16 px-4 bg-brand-blue">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="relative h-[400px] rounded-lg overflow-hidden border border-white">
           <img

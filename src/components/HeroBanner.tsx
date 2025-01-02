@@ -1,6 +1,6 @@
 const HeroBanner = () => {
   return (
-    <div className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-b from-white to-gray-50 py-12">
+    <div className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-b from-white to-gray-50 py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-up">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight font-primary">
