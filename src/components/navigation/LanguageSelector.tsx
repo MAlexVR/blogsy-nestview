@@ -25,7 +25,7 @@ const LanguageSelector = () => {
           onMouseEnter={() => setIsLanguageOpen(true)}
           onMouseLeave={() => setIsLanguageOpen(false)}
         >
-          <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white">
+          <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white transition-colors">
             <span>Español</span>
             <ReactCountryFlag
               countryCode="ES"
@@ -37,7 +37,7 @@ const LanguageSelector = () => {
               title="España"
             />
           </a>
-          <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white">
+          <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white transition-colors">
             <span>English</span>
             <ReactCountryFlag
               countryCode="US"
