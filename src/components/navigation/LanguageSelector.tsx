@@ -28,33 +28,37 @@ const LanguageSelector = () => {
       <div className={`absolute top-full right-0 w-48 bg-white shadow-lg rounded-md py-2 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}>
         <button 
           onClick={() => handleLanguageChange('es')}
-          className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white"
+          className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white group/flag"
         >
           <span>Español</span>
-          <ReactCountryFlag
-            countryCode="ES"
-            svg
-            style={{
-              width: '1.5em',
-              height: '1.5em',
-            }}
-            title="España"
-          />
+          <div className="group-hover/flag:border-2 group-hover/flag:border-white rounded">
+            <ReactCountryFlag
+              countryCode="ES"
+              svg
+              style={{
+                width: '1.5em',
+                height: '1.5em',
+              }}
+              title="España"
+            />
+          </div>
         </button>
         <button 
           onClick={() => handleLanguageChange('en')}
-          className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white"
+          className="w-full flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white group/flag"
         >
           <span>English</span>
-          <ReactCountryFlag
-            countryCode="US"
-            svg
-            style={{
-              width: '1.5em',
-              height: '1.5em',
-            }}
-            title="United States"
-          />
+          <div className="group-hover/flag:border-2 group-hover/flag:border-white rounded">
+            <ReactCountryFlag
+              countryCode="US"
+              svg
+              style={{
+                width: '1.5em',
+                height: '1.5em',
+              }}
+              title="United States"
+            />
+          </div>
         </button>
       </div>
     </div>
