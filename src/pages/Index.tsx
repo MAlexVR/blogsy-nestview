@@ -1,10 +1,11 @@
 import Navbar from '../components/Navbar';
 import HeroBanner from '../components/HeroBanner';
+import LatestNews from '../components/LatestNews';
 import FeaturedProjects from '../components/FeaturedProjects';
 import UpcomingEvents from '../components/UpcomingEvents';
 import ResearchGroups from '../components/ResearchGroups';
 import FeaturedServices from '../components/FeaturedServices';
-import LatestNews from '../components/LatestNews';
+import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -13,11 +14,12 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <HeroBanner />
+        <LatestNews />
         <FeaturedProjects />
         <UpcomingEvents />
         <ResearchGroups />
         <FeaturedServices />
-        <LatestNews />
+        <CallToAction />
       </main>
       <Footer />
     </div>
