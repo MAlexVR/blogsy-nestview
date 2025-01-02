@@ -4,7 +4,7 @@ const CallToAction = () => {
   return (
     <section className="py-20 px-4 bg-brand-blue">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div className="relative h-[400px] rounded-lg overflow-hidden">
+        <div className="relative h-[400px] rounded-lg overflow-hidden border border-white">
           <img
             src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
             alt="Investigador en laboratorio"
@@ -20,7 +20,7 @@ const CallToAction = () => {
           </p>
           <Button
             size="lg"
-            className="bg-white text-brand-blue hover:bg-gray-100"
+            className="bg-white text-brand-blue hover:bg-white hover:text-brand-green hover:border-brand-green border transition-colors"
           >
             Contáctenos
           </Button>
