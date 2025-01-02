@@ -10,7 +10,7 @@ const LanguageSelector = () => {
       <button
         onMouseEnter={() => setIsLanguageOpen(true)}
         onMouseLeave={() => setIsLanguageOpen(false)}
-        className="flex items-center space-x-1 text-white hover:text-white/90 transition-colors"
+        className="flex items-center space-x-1 text-white hover:text-brand-blue transition-colors"
       >
         <Globe className="h-5 w-5" />
         {isLanguageOpen ? (
