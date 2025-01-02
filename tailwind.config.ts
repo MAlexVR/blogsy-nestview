@@ -25,6 +25,9 @@ export default {
       colors: {
         'brand-green': '#39A900',
         'brand-blue': '#00304D',
+        'brand-purple': '#71277A',
+        'brand-cyan': '#50E5F9',
+        'brand-yellow': '#FDC300',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

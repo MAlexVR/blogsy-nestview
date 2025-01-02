@@ -16,7 +16,7 @@ const HeroBanner = () => {
             <button className="px-8 py-3 text-white bg-brand-blue rounded-md hover:bg-brand-blue/90 transition-all duration-200 transform hover:scale-105 font-primary">
               Explorar
             </button>
-            <button className="px-8 py-3 text-gray-700 bg-white border border-gray-200 rounded-md hover:bg-gray-50 transition-all duration-200 transform hover:scale-105 font-primary">
+            <button className="px-8 py-3 text-brand-blue bg-white border border-brand-blue rounded-md hover:bg-gray-50 transition-all duration-200 transform hover:scale-105 font-primary">
               Más información →
             </button>
           </div>
