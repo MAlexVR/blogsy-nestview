@@ -1,4 +1,4 @@
-import { Building, Tools } from "lucide-react";
+import { Building } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 const FeaturedServices = () => {
@@ -6,7 +6,7 @@ const FeaturedServices = () => {
     {
       title: "Laboratorio de Prototipado",
       description: "Desarrollo y prueba de prototipos tecnológicos",
-      icon: <Tools className="h-8 w-8 text-brand-blue" />,
+      icon: <Building className="h-8 w-8 text-brand-blue" />,
     },
     {
       title: "Laboratorio de Software",
@@ -16,7 +16,7 @@ const FeaturedServices = () => {
     {
       title: "Consultoría Tecnológica",
       description: "Asesoramiento en implementación de tecnologías",
-      icon: <Tools className="h-8 w-8 text-brand-blue" />,
+      icon: <Building className="h-8 w-8 text-brand-blue" />,
     },
     {
       title: "Laboratorio de IoT",
