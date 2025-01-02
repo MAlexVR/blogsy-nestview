@@ -28,9 +28,9 @@ const news = [
 
 const LatestNews = () => {
   return (
-    <section className="py-8 px-4 bg-gray-50">
+    <section className="py-4 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12 text-brand-blue">Últimas Noticias</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-brand-blue">Últimas Noticias</h2>
         <Carousel className="w-full max-w-5xl mx-auto">
           <CarouselContent>
             {news.map((item) => (
