@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-white/90"
+              className="text-white hover:text-brand-blue transition-colors"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -29,11 +29,11 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <LanguageSelector />
             
-            <button className="text-white hover:text-white/90 transition-colors">
+            <button className="text-white hover:text-brand-blue transition-colors">
               <Search className="h-5 w-5" />
             </button>
             
-            <button className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-brand-blue rounded-md hover:bg-brand-blue/90 transition-colors font-primary">
+            <button className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-brand-blue hover:bg-white hover:text-brand-blue transition-colors rounded-md font-primary">
               Iniciar sesión
               <LogIn className="h-4 w-4" />
             </button>
