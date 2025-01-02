@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { ChevronDown, Search, Globe, Menu, X, LogIn, Flag } from 'lucide-react';
+import { ChevronDown, Search, Globe, Menu, X, LogIn } from 'lucide-react';
+import ReactCountryFlag from "react-country-flag";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -90,11 +91,27 @@ const Navbar = () => {
                 <div className="absolute top-full right-0 w-40 bg-white shadow-lg rounded-md py-2 mt-2">
                   <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     <span>Español</span>
-                    <Flag className="h-4 w-4 text-red-500" />
+                    <ReactCountryFlag
+                      countryCode="ES"
+                      svg
+                      style={{
+                        width: '1.5em',
+                        height: '1.5em',
+                      }}
+                      title="España"
+                    />
                   </a>
                   <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     <span>English</span>
-                    <Flag className="h-4 w-4 text-blue-500" />
+                    <ReactCountryFlag
+                      countryCode="US"
+                      svg
+                      style={{
+                        width: '1.5em',
+                        height: '1.5em',
+                      }}
+                      title="United States"
+                    />
                   </a>
                 </div>
               )}
@@ -143,11 +160,27 @@ const Navbar = () => {
                     <div className="absolute left-4 mt-32 w-40 bg-white shadow-lg rounded-md py-2">
                       <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                         <span>Español</span>
-                        <Flag className="h-4 w-4 text-red-500" />
+                        <ReactCountryFlag
+                          countryCode="ES"
+                          svg
+                          style={{
+                            width: '1.5em',
+                            height: '1.5em',
+                          }}
+                          title="España"
+                        />
                       </a>
                       <a href="#" className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                         <span>English</span>
-                        <Flag className="h-4 w-4 text-blue-500" />
+                        <ReactCountryFlag
+                          countryCode="US"
+                          svg
+                          style={{
+                            width: '1.5em',
+                            height: '1.5em',
+                          }}
+                          title="United States"
+                        />
                       </a>
                     </div>
                   )}
