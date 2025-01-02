@@ -20,7 +20,7 @@ const CallToAction = () => {
           </p>
           <Button
             size="lg"
-            className="bg-white text-brand-blue hover:bg-white hover:text-brand-green hover:border-brand-green border transition-colors"
+            className="bg-white text-brand-blue hover:bg-brand-green hover:text-white border transition-colors"
           >
             Contáctenos
           </Button>

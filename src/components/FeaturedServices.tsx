@@ -4,20 +4,20 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const services = [
   {
     id: 1,
-    title: "Laboratorio de Análisis",
-    description: "Servicios especializados de análisis y pruebas",
+    title: "Laboratorios de Servicios Unificados - LSU",
+    description: "Centro integrado de servicios técnicos y tecnológicos para la industria y la academia",
     icon: <Building className="h-6 w-6" />
   },
   {
     id: 2,
-    title: "Consultoría Técnica",
-    description: "Asesoramiento experto en proyectos de investigación",
+    title: "Laboratorio de Ensayos para Paneles Solares - LEPS",
+    description: "Pruebas y certificación de sistemas fotovoltaicos según estándares internacionales",
     icon: <Building className="h-6 w-6" />
   },
   {
     id: 3,
-    title: "Desarrollo de Prototipos",
-    description: "Diseño y construcción de prototipos especializados",
+    title: "Centro de Regeneración de Gases Refrigerantes - CRGR",
+    description: "Servicios especializados en recuperación y tratamiento de gases refrigerantes",
     icon: <Building className="h-6 w-6" />
   }
 ];
@@ -30,7 +30,7 @@ const FeaturedServices = () => {
         {services.map((service) => (
           <Card key={service.id} className="hover:shadow-lg transition-shadow">
             <CardHeader className="flex flex-row items-center gap-4">
-              <div className="bg-brand-blue rounded-full p-3">
+              <div className="bg-brand-blue rounded-full p-3 text-white">
                 {service.icon}
               </div>
             </CardHeader>
