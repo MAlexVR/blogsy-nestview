@@ -1,4 +1,5 @@
-import { Facebook, Twitter, Github } from 'lucide-react';
+import Logo from './Logo';
+import SocialIcons from './SocialIcons';
 
 const Footer = () => {
   return (
@@ -6,21 +7,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Research Group</h3>
+            <Logo className="text-white" />
             <p className="text-gray-400 text-sm">
               Innovando y generando conocimiento para un futuro mejor.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Github className="h-5 w-5" />
-              </a>
-            </div>
+            <SocialIcons />
           </div>
 
           <div>
@@ -96,6 +87,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
         </div>
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400 text-sm">

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ChevronDown, Search, Globe, Menu, X, LogIn } from 'lucide-react';
 import ReactCountryFlag from "react-country-flag";
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +11,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0 flex items-center">
-            <a href="/" className="text-xl font-semibold text-secondary">
-              Research Group
-            </a>
-          </div>
+          <Logo />
 
           {/* Mobile menu button */}
           <div className="flex md:hidden">
@@ -26,7 +23,6 @@ const Navbar = () => {
             </button>
           </div>
           
-          {/* Desktop navigation */}
           <div className="hidden md:flex items-center justify-center flex-1 space-x-8">
             <a href="/" className="text-gray-700 hover:text-primary transition-colors">
               Inicio
@@ -129,7 +125,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
