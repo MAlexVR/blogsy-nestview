@@ -22,11 +22,11 @@ const DesktopNav = () => {
             <ChevronDown className="h-4 w-4" />
           )}
         </button>
-        <div className="absolute top-full -left-4 w-48 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-primary">
+        <div className="absolute top-full -left-4 w-48 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white font-primary">
             Quiénes somos
           </a>
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-primary">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white font-primary">
             Misión y visión
           </a>
         </div>
@@ -44,11 +44,11 @@ const DesktopNav = () => {
             <ChevronDown className="h-4 w-4" />
           )}
         </button>
-        <div className="absolute top-full -left-4 w-48 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-primary">
+        <div className="absolute top-full -left-4 w-48 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white font-primary">
             Próximos eventos
           </a>
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-primary">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white font-primary">
             Eventos pasados
           </a>
         </div>
@@ -66,11 +66,11 @@ const DesktopNav = () => {
             <ChevronDown className="h-4 w-4" />
           )}
         </button>
-        <div className="absolute top-full -left-4 w-48 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-primary">
+        <div className="absolute top-full -left-4 w-48 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white font-primary">
             Portafolio
           </a>
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-primary">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue hover:text-white font-primary">
             Laboratorios
           </a>
         </div>
