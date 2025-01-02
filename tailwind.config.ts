@@ -18,19 +18,25 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        primary: ['Work Sans', 'sans-serif'],
+        secondary: ['Calibri', 'sans-serif'],
+      },
       colors: {
+        'brand-green': '#39A900',
+        'brand-blue': '#00304D',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#6366F1",
-          foreground: "#FFFFFF",
+          DEFAULT: '#39A900',
+          foreground: '#FFFFFF',
         },
         secondary: {
-          DEFAULT: "#1A1F2C",
-          foreground: "#FFFFFF",
+          DEFAULT: '#00304D',
+          foreground: '#FFFFFF',
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
