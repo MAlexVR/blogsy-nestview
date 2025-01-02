@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, Search, Globe, Menu, X } from 'lucide-react';
+import { ChevronDown, Search, Globe, Menu, X, LogIn } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -103,11 +103,9 @@ const Navbar = () => {
               <Search className="h-5 w-5" />
             </button>
             
-            <button className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary transition-colors">
+            <button className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-primary rounded-md hover:bg-primary/90 transition-colors">
               Iniciar sesión
-            </button>
-            <button className="px-4 py-2 text-sm font-medium text-white bg-primary rounded-md hover:bg-primary/90 transition-colors">
-              Prueba gratis
+              <LogIn className="h-4 w-4" />
             </button>
           </div>
         </div>
@@ -140,12 +138,10 @@ const Navbar = () => {
                     <Search className="h-5 w-5" />
                   </button>
                 </div>
-                <div className="mt-3 space-y-1">
-                  <button className="block w-full px-3 py-2 text-base font-medium text-gray-700 hover:text-primary">
+                <div className="mt-3">
+                  <button className="block w-full px-3 py-2 text-base font-medium text-white bg-primary rounded-md hover:bg-primary/90 flex items-center justify-center gap-2">
                     Iniciar sesión
-                  </button>
-                  <button className="block w-full px-3 py-2 text-base font-medium text-white bg-primary rounded-md hover:bg-primary/90">
-                    Prueba gratis
+                    <LogIn className="h-4 w-4" />
                   </button>
                 </div>
               </div>
